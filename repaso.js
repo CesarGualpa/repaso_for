@@ -1,15 +1,13 @@
+function ejercicio1(){
+    for(let i = 1; i <= 5; i++){
+        console.log(i);
+    }
+}
+
 function mostrar(opcion){
     switch(opcion){
         case 1:
-            listarImpares();
-            break;
-
-        case 2:
-            // otraFuncion();
-            break;
-
-        case 3:
-            // otraFuncion();
+            ejercicio1();
             break;
 
         default:
