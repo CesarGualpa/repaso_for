@@ -45,7 +45,7 @@ function mostrar(opcion){
         case 5:
             imprimirCentenasRegresivo();
             break;
-            case 6:
+        case 6:
             mostrarMensaje1();
             break;
         case 7:
@@ -56,6 +56,9 @@ function mostrar(opcion){
             break;
         case 9:
             mostrarMensaje4();
+            break;
+        case 10:
+            imprimirTabla3();
             break;
         default:
             console.log("Opción no válida");
@@ -83,5 +86,11 @@ function mostrarMensaje3(){
 function mostrarMensaje4(){
     for(let i = 8; i > 5; i--){
         console.log("Mensaje 4");
+    }
+}
+
+function imprimirTabla3(){
+    for(let i = 1; i <= 10; i++){
+        console.log("3x" + i + "=" + (3 * i));
     }
 }
