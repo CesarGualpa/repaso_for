@@ -45,7 +45,43 @@ function mostrar(opcion){
         case 5:
             imprimirCentenasRegresivo();
             break;
+            case 6:
+            mostrarMensaje1();
+            break;
+        case 7:
+            mostrarMensaje2();
+            break;
+        case 8:
+            mostrarMensaje3();
+            break;
+        case 9:
+            mostrarMensaje4();
+            break;
         default:
             console.log("Opción no válida");
+    }
+}
+
+function mostrarMensaje1(){
+    for(let i = 5; i < 8; i++){
+        console.log("Mensaje 1");
+    }
+}
+
+function mostrarMensaje2(){
+    for(let i = 10; i >= 8; i--){
+        console.log("Mensaje 2");
+    }
+}
+
+function mostrarMensaje3(){
+    for(let i = 0; i < 3; i++){
+        console.log("Mensaje 3");
+    }
+}
+
+function mostrarMensaje4(){
+    for(let i = 8; i > 5; i--){
+        console.log("Mensaje 4");
     }
 }
