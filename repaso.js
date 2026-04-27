@@ -16,6 +16,18 @@ function ejercicio3(){
     }
 }
 
+function imprimirCentenas(){
+    for(let i = 100; i <= 1000; i += 100){
+        console.log(i);
+    }
+}
+
+function imprimirCentenasRegresivo(){
+    for(let i = 1000; i >= 800; i -= 100){
+        console.log(i);
+    }
+}
+
 function mostrar(opcion){
     switch(opcion){
         case 1:
@@ -26,6 +38,12 @@ function mostrar(opcion){
             break;
         case 3:
             ejercicio3();
+            break;
+        case 4:
+            imprimirCentenas();
+            break;
+        case 5:
+            imprimirCentenasRegresivo();
             break;
         default:
             console.log("Opción no válida");
